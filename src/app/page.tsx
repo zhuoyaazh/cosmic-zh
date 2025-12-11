@@ -14,8 +14,8 @@ export default function Home() {
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-center bg-black text-white p-6 relative overflow-hidden">
-        {/* Background effect */}
-        <div className="absolute top-0 left-0 w-full h-full bg-linear-to-b from-indigo-900/20 via-black to-black -z-10"></div>
+        {/* Background Aurora Effect */}
+        <div className="aurora-bg"></div>
 
       <div className="text-center max-w-md w-full z-10">
         {/* Birthday Badge */}
